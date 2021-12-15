@@ -1,0 +1,199 @@
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	background-color: #cdd8c7;
+}
+/*--------------------header--------------------*/
+
+.max-width{
+	max-width: 1300px;
+	padding: 0 50px;
+	margin: auto;
+}
+
+.navbar1{
+	position: fixed;
+	width: 100%;
+	padding: 15px;
+	background: #7e703f;
+	font-family: Century Gothic, sans-serif;
+}
+
+.navbar1 .max-width{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.navbar1 .logo a{
+	color: #fff;
+	font-size: 35px;
+	font-weight: 600;
+	transition: color 0.3s ease;
+}
+
+.navbar1 .logo a:hover{
+	color: black;
+}
+
+.navbar1 .menu li{
+	list-style: none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.navbar1 .menu li a{
+	color: #fff;
+	margin-left: 25px;
+	transition: color 0.3s ease;
+}
+
+.navbar1 .menu li a:hover{
+	color: black;
+}
+
+/*--------------------homesection--------------------*/
+.home{
+	display: flex;
+	background-color: #98985c;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	color: black;
+	min-height: 500px;
+	font-family: Century Gothic, sans-serif;	
+}
+
+.home .max-width{
+	margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1{
+	font-size: 27px;
+}
+
+.home .home-content .text-2{
+	font-size: 55px;
+	font-weight: 600;
+	margin-left: -3px;
+}
+
+.home .home-content .text-3{
+	font-size: 37px;
+	margin:5px 0;
+}
+
+/*--------about me section--------*/
+.about{
+	font-family: Century Gothic, sans-serif;
+	padding: 50px 0;
+	padding-top: 80px;
+}
+
+.about .title{	
+	text-align: center;
+	font-family: Century Gothic, sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.about hr{
+	border-color: #838462;
+}
+
+.about .about-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about .about-content .left{
+	width: 45%;
+}
+
+.about .about-content .right{
+	width: 55%;
+}
+
+.about .about-content .left img{
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+}
+
+.about .about-content .text{
+	font-size: 30px;
+	font-weight: 500;
+	padding: 5px;
+}
+
+.divider{
+	margin: 0 auto 20px auto;
+	width: 500px;
+}
+
+.projects{
+	background-color: #838462;
+}
+/*----------------projects section----------------*/
+.projects{
+	font-family: Century Gothic, sans-serif;
+	padding: 50px;
+	padding-top: 80px;
+}
+
+.projects .title{	
+	text-align: center;
+	font-family: Century Gothic, sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.projects hr{
+	border-color: #cdd8c7;
+}
+
+.projects h5{
+	font-weight: 600;
+}
+
+#proj-imgs{
+	margin: 0 auto;
+	padding: 15px;
+	text-align: center;
+}
+
+/*--------------contact section--------------*/
+.contact{	
+	font-family: Century Gothic, sans-serif;
+	padding: 50px;
+}
+
+.contact .title{
+	text-align: center;
+	font-family: Century Gothic, sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.contact hr{
+	border-color: #838462;
+}
+
+.contact-content{
+	text-align: center;
+}
